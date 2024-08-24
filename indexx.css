@@ -1,0 +1,93 @@
+body{
+    background-image: url(./WhatsApp\ Image\ 2024-08-24\ at\ 14.41.54_ed0d219c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul li{
+    list-style-type: none;
+    /* display: flex; */
+}
+ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 1px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+
+}
+
+h6{
+    font-size: 25px;
+    margin-top: 30px;
+    /* margin-left: 100px; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+  margin-top: 0px;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+.text1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 120px;
+}
+@media only screen and (max-width: 1024px){
+   li{
+    display: none;
+   }
+.text1{
+    justify-content: center;
+}
+.button{
+    height: 30px;
+    width: 90px;
+   margin-bottom: 30px;
+}
+body{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.h1{
+    font-size: 30px;
+}
+.para{
+    font-size: 20px;
+}
+
+}
+@media only screen and (max-width:272px){
+    .text1{
+        justify-content: center;
+    }
+    .button{
+
+      height: 30px;
+      width: 90px;
+    }
+
+}
